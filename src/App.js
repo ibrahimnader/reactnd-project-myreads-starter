@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import * as BooksAPI from "./BooksAPI";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-
 import HomePage from "./pages/HomePage";
 import "./App.css";
 import SearchPage from "./pages/SearchPage";
@@ -43,7 +42,7 @@ const App = () => {
           <Route
             path="/search"
             component={() => (
-              <SearchPage handleShelfChange={handleShelfChange} books={books}/>
+              <SearchPage handleShelfChange={handleShelfChange} books={books} />
             )}
           />
         </Switch>

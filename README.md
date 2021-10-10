@@ -1,4 +1,4 @@
-# this is the FWD internship (udacity react nanodegree)  first project
+# This is the Egypt FWD internship first project
 # MyReads Project
 
 This is a Reactjs project for categorizing books in shelfs 
